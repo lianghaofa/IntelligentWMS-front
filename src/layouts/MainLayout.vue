@@ -99,7 +99,7 @@
             round
             dense
             flat
-            @click="brownlink('https://github.com/GreaterWMS/GreaterWMS')"
+            @click="brownlink('https://github.com/IntelligentWMS/IntelligentWMS')"
             style="margin: 0 10px 0 10px"
           >
             <q-tooltip

@@ -162,8 +162,8 @@ module.exports = function (/* ctx */) {
       workboxOptions: {}, // only for GenerateSW
       manifest: {
         name: 'wms templates',
-        short_name: 'GreaterWMS--Open Source Warehouse Management System',
-        description: 'GreaterWMS--Open Source Warehouse Management System',
+        short_name: 'IntelligentWMS--Open Source Warehouse Management System',
+        description: 'IntelligentWMS--Open Source Warehouse Management System',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
@@ -228,8 +228,8 @@ module.exports = function (/* ctx */) {
       builder: {
         // https://www.electron.build/configuration/configuration
 
-        appId: 'com.electron.greaterwms',
-        productName: 'GreaterWMS',
+        appId: 'com.electron.IntelligentWMS',
+        productName: 'IntelligentWMS',
         copyright: '2022SR0153577',
         publish: [
           {
@@ -259,12 +259,12 @@ module.exports = function (/* ctx */) {
           ]
         },
         nsis: {
-          uninstallDisplayName: 'GreaterWMS',
+          uninstallDisplayName: 'IntelligentWMS',
           oneClick: false,
           allowToChangeInstallationDirectory: true,
           createDesktopShortcut: true,
           createStartMenuShortcut: true,
-          shortcutName: 'GreaterWMS',
+          shortcutName: 'IntelligentWMS',
           runAfterFinish: true
         },
         compression: 'maximum'
